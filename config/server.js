@@ -1,7 +1,7 @@
 module.exports = ({ env }) => ({
   host: env('HOST', '0.0.0.0'),
   port: env.int('PORT', 1337),
-  url: ''nagima-site.herokuapp.com/
+  url: ''nagima-site.herokuapp.com'
   admin: {
     url: '/'
     auth: {
